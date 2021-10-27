@@ -1,0 +1,16 @@
+
+:root {
+  --bright-orange: ;
+}
+
+body {
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+}
+
+@media screen and (max-width: 799px) {
+}
