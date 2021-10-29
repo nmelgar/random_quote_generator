@@ -1,7 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
 
 :root {
-  --bright-orange: ;
+  --dark-blue: #136388;
+  --light-blue: #01b6d1;
+  --lighter-blue: #50cddf;
+  --lightest-blue: #9fe3ed;
+  --light-grey: #000000;
+  --lighter-grey: #F1F1F3;
+  --white: #ffffff;
 }
+
 
 body {
   font-size: 15px;
@@ -9,8 +19,61 @@ body {
   padding: 0;
 }
 
-h2 {
+.component-container {
+  text-align: center;
+  /* border: 2px solid black; */
+  border-style: double;
+  border-width: 10px;
+  /* border-color: ; */
+  margin: 40px;
+  max-width: 720px;
+  padding: 40px;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+
 }
 
-@media screen and (max-width: 799px) {
+.quotation-marks-container {
+  margin: 0;
+  padding: 0;
 }
+
+h1,
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.component-container #main-quote-marks {
+  font-size: 70px;
+  font-weight: bolder;
+  color: var(--light-blue);
+}
+
+.component-container #quote-here {
+  /* font-family: 'Space Grotesk', sans-serif; */
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.buttons-container{
+  margin-top: 40px;
+}
+.component-container  #new-quote{
+  font-size: 14PX;
+  font-family: 'Open Sans', sans-serif;
+  color: var(--white);
+  text-decoration: none;
+  background: var(--light-blue);
+  padding: 10px 20px;
+}
+
+.component-container  #new-quote:hover{
+  background-color: var(--white);
+  border: 2px solid var(--light-blue);
+  color: var(--light-blue);
+}
+
+@media screen and (max-width: 799px) {}
